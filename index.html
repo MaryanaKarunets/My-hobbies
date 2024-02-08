@@ -6,47 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My hobbies - Maryana_Karunets</title>
     <script src="https://kit.fontawesome.com/3c7c090c85.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
-            <h1>МОИ УВЛЕЧЕНИЯ</h1>
-            <a href="#about-me">КНИГИ</a>
-            <a href="#achievements">ФИЛЬМЫ</a>
-            <a href="#hobbies">ШИТЬЕ</a>
+            <a href="#books">КНИГИ</a>
+            <a href="#films">ФИЛЬМЫ</a>
+            <a href="#sewing">ШИТЬЕ</a>
         </nav>
     </header>
     <main>
-        <section class="entertaintment">
+        <section class="entertaintment" id="entertaintment">
             <div class="wrapper">
-                <article class="books">
+                <h1>МОИ УВЛЕЧЕНИЯ</h1>
+                <article class="hobby" id="books">
                     <h2>КНИГИ</h2>
                     <i class="fa-solid fa-book"></i>
                     <div class="photo">
-                        <img src="img/about_us.jpg" alt="фото">
+                        <img src="../My-hobbies/image/book1.jpeg" alt="фото">
+                        <img src="../My-hobbies/image/book2.jpeg" alt="фото">
+                        <img src="../My-hobbies/image/book3.jpeg" alt="фото">
                     </div>
                     <p class="description">Одно из самых моих увлекательных занятий это чтение. Самый любимый писатель Стивен Кинг. </p>
                 </article>
 
-                <article class="films">
+                <article class="hobby" id="films">
                     <h2>ФИЛЬМЫ</h2>
                     <i class="fa-solid fa-film"></i>
                     <div class="photo">
-                        <img src="img/about_us.jpg" alt="фото">
+                        <img src="../My-hobbies/image/film1.jpeg" alt="фото">
+                        <img src="../My-hobbies/image/film2.jpeg" alt="фото">
+                        <img src="../My-hobbies/image/film3.jpeg" alt="фото">
                     </div>
-                    <p class="description">Просмотр фильмов никто не отменял, поэтому и у меня есть парочка фильмов, которые можно пересматривать бесконечно</p>
+                    <p class="description">Просмотр фильмов никто не отменял, поэтому и у меня есть парочка фильмов, которые можно пересматривать бесконечно.</p>
                 </article>
 
-                <article class="sewing">
+                <article class="hobby" id="sewing">
                     <h2>ШИТЬЕ</h2>
                     <i class="fa-solid fa-wand-magic-sparkles"></i>
                     <div class="photo">
-                        <img src="img/about_us.jpg" alt="фото">
+                        <img src="../My-hobbies/image/hobby1" alt="фото">
+                        <img src="../My-hobbies/image/hobby2" alt="фото">
+                        <img src="../My-hobbies/image/hobby3" alt="фото">
                     </div>
                     <p class="description">Отдельно хочется остановиться на шитье. Тут мое время летит незаметно. Я шью игрушки, продумываю образы, каждую деталь одежды.... это мой рай...</p>
                 </article>
@@ -54,10 +61,8 @@
         </section>
     </main>
     <footer class="footer">
-        <nav class="menu_bottom">
-            <a href="#about-me">ПРО МЕНЯ</a>
-            <a href="#achievements">МОИ ДОСТИЖЕНИЯ</a>
-            <a href="#hobbies">МОИ УВЛЕЧЕНИЯ</a>
+        <nav class="menu-bottom">
+            <a href="#entertaintment">МОИ УВЛЕЧЕНИЯ</a>
         </nav>
         <div class="networks">
             <a href="#https://viber.com"><i class="fa-brands fa-viber"></i></a>

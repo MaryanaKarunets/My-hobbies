@@ -5,7 +5,98 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
-    font-weight: 300;
+    font-family: 'Playfair Display', sans-serif;
     text-align: center;
+}
+
+header {
+    padding: 30px 0 31px;
+    background: rgba(55, 3, 57, 0.5);
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+}
+
+nav a {
+    color: #11074d;
+    text-decoration: none;
+}
+
+header a:not(:last-child)::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    display: inline-block;
+    background: #0a0101;
+    vertical-align: middle;
+    margin: 0 45px;
+}
+
+h1 {
+    color: #11074d;
+    font-size: 40px;
+    margin: 0 auto 30px;
+}
+
+h2 {
+    color: #453c78;
+    font-size: 20px;
+    margin: 20px auto 20px;
+}
+
+.entertaintment {
+    background-color: #b3afca;
+    text-align: center;
+    font-size: 20px;
+    padding: 45px 0 30px;
+}
+
+.hobby {
+    padding: 50px;
+}
+
+.photo {
+    padding: 10px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 24px;
+}
+
+.photo img {
+    width: calc((100% - 3 * 24px) / 3);
+    max-width: 224px;
+    height: 395px;
+    margin-right: 24px;
+}
+
+.description {
+    max-width: 950px;
+    text-align: center;
+    color: #11074d;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #0a0101;
+    padding: 20px 0;
+}
+
+.menu-bottom a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.networks {
+    padding-top: 20px;
+}
+
+.networks a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.networks a:not(:last-of-type) {
+    margin-right: 30px;
 }
